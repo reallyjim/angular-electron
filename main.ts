@@ -13,10 +13,11 @@ function createWindow(): BrowserWindow {
 
   // Create the browser window.
   win = new BrowserWindow({
-    x: 0,
-    y: 0,
-    width: size.width,
-    height: size.height,
+    // by not setting a start position, will be centered
+    //x: 0,
+    //y: 0,
+    width: 800,
+    height: 600,
     webPreferences: {
       nodeIntegration: true,
       allowRunningInsecureContent: (serve) ? true : false,
@@ -26,8 +27,8 @@ function createWindow(): BrowserWindow {
   });
 
   if (serve) {
-
-    win.webContents.openDevTools();
+    // un-comment to show devtools on startup
+    //win.webContents.openDevTools();
 
     require('electron-reload')(__dirname, {
       electron: require(`${__dirname}/node_modules/electron`)
