@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-electron": {
+    "schmoli-angular-electron": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -16,12 +16,8 @@
             "main": "src/main.ts",
             "tsConfig": "src/tsconfig.app.json",
             "polyfills": "src/polyfills.ts",
-            "assets": [
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.scss"
-            ],
+            "assets": ["src/assets"],
+            "styles": ["src/styles.scss"],
             "scripts": [],
             "customWebpackConfig": {
               "path": "./angular.webpack.js"
@@ -84,24 +80,24 @@
         "serve": {
           "builder": "@angular-builders/custom-webpack:dev-server",
           "options": {
-            "browserTarget": "angular-electron:build"
+            "browserTarget": "schmoli-angular-electron:build"
           },
           "configurations": {
             "dev": {
-              "browserTarget": "angular-electron:build:dev"
+              "browserTarget": "schmoli-angular-electron:build:dev"
             },
             "web": {
-              "browserTarget": "angular-electron:build:web"
+              "browserTarget": "schmoli-angular-electron:build:web"
             },
             "production": {
-              "browserTarget": "angular-electron:build:production"
+              "browserTarget": "schmoli-angular-electron:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-electron:build"
+            "browserTarget": "schmoli-angular-electron:build"
           }
         },
         "test": {
@@ -112,12 +108,8 @@
             "tsConfig": "src/tsconfig.spec.json",
             "karmaConfig": "src/karma.conf.js",
             "scripts": [],
-            "styles": [
-              "src/styles.scss"
-            ],
-            "assets": [
-              "src/assets"
-            ],
+            "styles": ["src/styles.scss"],
+            "assets": ["src/assets"],
             "customWebpackConfig": {
               "path": "./angular.webpack.js"
             }
@@ -127,15 +119,12 @@
           "builder": "@angular-eslint/builder:lint",
           "options": {
             "eslintConfig": ".eslintrc.json",
-            "lintFilePatterns": [
-              "src/**.ts",
-              "main.ts"
-            ]
+            "lintFilePatterns": ["src/**.ts", "main.ts"]
           }
         }
       }
     },
-    "angular-electron-e2e": {
+    "schmoli-angular-electron-e2e": {
       "root": "e2e",
       "projectType": "application",
       "architect": {
@@ -143,15 +132,13 @@
           "builder": "@angular-eslint/builder:lint",
           "options": {
             "eslintConfig": ".eslintrc.json",
-            "lintFilePatterns": [
-              "e2e/**.ts"
-            ]
+            "lintFilePatterns": ["e2e/**.ts"]
           }
         }
       }
     }
   },
-  "defaultProject": "angular-electron",
+  "defaultProject": "schmoli-angular-electron",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "app",

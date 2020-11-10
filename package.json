@@ -1,25 +1,6 @@
 {
-  "name": "angular-electron",
-  "version": "8.0.5",
-  "description": "Angular 10 with Electron (Typescript + SASS + Hot Reload)",
-  "homepage": "https://github.com/maximegris/angular-electron",
-  "author": {
-    "name": "Maxime GRIS",
-    "email": "maxime.gris@gmail.com"
-  },
-  "keywords": [
-    "angular",
-    "angular 10",
-    "electron",
-    "nodejs",
-    "typescript",
-    "spectron",
-    "eslint",
-    "sass",
-    "windows",
-    "mac",
-    "linux"
-  ],
+  "name": "schmoli-schmoli-angular-electron",
+  "version": "1.0.0",
   "main": "main.js",
   "private": true,
   "scripts": {
