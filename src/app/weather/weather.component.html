@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="row">
+        <h1 class="title">
+            {{ 'PAGES.WEATHER.TITLE' | translate }}
+        </h1>
+    </div>
+
+    <table>
+        <thead>
+            <th>Date</th>
+            <th>Temp</th>
+            <th>Summary</th>
+        </thead>
+        <tbody>
+            <tr *ngFor="let item of weather">
+                <td style="width: 100px;">{{ item.date | date }}</td>
+                <td style="width: 50px;text-align: right;">{{ item.temperatureF }} F</td>
+                <td style="width: 100px; padding-left: 10px;">{{ item.summary }}</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <br>
+    <div class="row">
+        <a routerLink="/">{{ 'PAGES.WEATHER.BACK_TO_HOME' | translate }}</a>
+    </div>
+
+</div>

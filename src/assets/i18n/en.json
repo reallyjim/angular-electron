@@ -2,11 +2,16 @@
   "PAGES": {
       "HOME": {
           "TITLE": "App works !",
-          "GO_TO_DETAIL": "Go to Detail"
+          "GO_TO_DETAIL": "Go to Detail",
+          "GO_TO_WEATHER": "Go to Forecast"
       },
       "DETAIL": {
         "TITLE": "Detail page !",
         "BACK_TO_HOME": "Back to Home"
+    },
+    "WEATHER": {
+      "TITLE": "Weather Forecast",
+      "BACK_TO_HOME": "Back to Home"
     }
   }
 }

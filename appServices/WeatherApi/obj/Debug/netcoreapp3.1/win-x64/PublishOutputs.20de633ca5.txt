@@ -1,0 +1,7 @@
+C:\Users\Jim.Moore\source\schmoli\angular-electron\src\assets\services\weather\WeatherApi.exe
+C:\Users\Jim.Moore\source\schmoli\angular-electron\src\assets\services\weather\appsettings.Development.json
+C:\Users\Jim.Moore\source\schmoli\angular-electron\src\assets\services\weather\appsettings.json
+C:\Users\Jim.Moore\source\schmoli\angular-electron\src\assets\services\weather\WeatherApi.dll
+C:\Users\Jim.Moore\source\schmoli\angular-electron\src\assets\services\weather\WeatherApi.deps.json
+C:\Users\Jim.Moore\source\schmoli\angular-electron\src\assets\services\weather\WeatherApi.runtimeconfig.json
+C:\Users\Jim.Moore\source\schmoli\angular-electron\src\assets\services\weather\WeatherApi.pdb

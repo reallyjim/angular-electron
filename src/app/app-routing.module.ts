@@ -1,21 +1,33 @@
-import { NgModule } from "@angular/core";
-import { Routes, RouterModule } from "@angular/router";
-import { EmptyComponent, PageNotFoundComponent } from "./shared/components";
+import { NgModule } from '@angular/core';
+import { Routes, RouterModule } from '@angular/router';
+import { PageNotFoundComponent } from './shared/components';
+
+import { HomeRoutingModule } from './home/home-routing.module';
+import { DetailRoutingModule } from './detail/detail-routing.module';
+import { WeatherComponent } from './weather/weather.component';
 
 const routes: Routes = [
   {
-    path: "",
-    pathMatch: "full",
-    component: EmptyComponent,
+    path: '',
+    redirectTo: 'home',
+    pathMatch: 'full'
   },
   {
-    path: "**",
-    component: PageNotFoundComponent,
+    path: 'weather',
+    component: WeatherComponent
   },
+  {
+    path: '**',
+    component: PageNotFoundComponent
+  }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule],
+  imports: [
+    RouterModule.forRoot(routes),
+    HomeRoutingModule,
+    DetailRoutingModule
+  ],
+  exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule { }

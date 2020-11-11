@@ -6,10 +6,9 @@ import { TranslateModule } from '@ngx-translate/core';
 import { PageNotFoundComponent } from './components/';
 import { WebviewDirective } from './directives/';
 import { FormsModule } from '@angular/forms';
-import { EmptyComponent } from './components/';
 
 @NgModule({
-  declarations: [PageNotFoundComponent, WebviewDirective, EmptyComponent],
+  declarations: [PageNotFoundComponent, WebviewDirective],
   imports: [CommonModule, TranslateModule, FormsModule],
   exports: [TranslateModule, WebviewDirective, FormsModule]
 })
