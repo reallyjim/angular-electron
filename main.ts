@@ -78,6 +78,16 @@ try {
     }
   });
 
+  app.on('certificate-error', (event, webContents, url, error, certificate, callback) => {
+    if (url.startsWith('https://localhost')) {
+      // Verification logic.
+      event.preventDefault()
+      callback(true)
+    } else {
+      callback(false)
+    }
+  })
+
 } catch (e) {
   // Catch Error
   // throw e;

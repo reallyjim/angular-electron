@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Jim.Moore\\source\\schmoli\\angular-electron\\appServices\\WeatherApi\\WeatherApi.csproj": {}
+    "C:\\Users\\Jim.Moore\\source\\reallyJim\\angular-electron\\appServices\\WeatherApi\\WeatherApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Jim.Moore\\source\\schmoli\\angular-electron\\appServices\\WeatherApi\\WeatherApi.csproj": {
+    "C:\\Users\\Jim.Moore\\source\\reallyJim\\angular-electron\\appServices\\WeatherApi\\WeatherApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Jim.Moore\\source\\schmoli\\angular-electron\\appServices\\WeatherApi\\WeatherApi.csproj",
+        "projectUniqueName": "C:\\Users\\Jim.Moore\\source\\reallyJim\\angular-electron\\appServices\\WeatherApi\\WeatherApi.csproj",
         "projectName": "WeatherApi",
-        "projectPath": "C:\\Users\\Jim.Moore\\source\\schmoli\\angular-electron\\appServices\\WeatherApi\\WeatherApi.csproj",
+        "projectPath": "C:\\Users\\Jim.Moore\\source\\reallyJim\\angular-electron\\appServices\\WeatherApi\\WeatherApi.csproj",
         "packagesPath": "C:\\Users\\Jim.Moore\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Jim.Moore\\source\\schmoli\\angular-electron\\appServices\\WeatherApi\\obj\\",
+        "outputPath": "C:\\Users\\Jim.Moore\\source\\reallyJim\\angular-electron\\appServices\\WeatherApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Jim.Moore\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -70,11 +70,6 @@
             }
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100-rc.2.20479.15\\RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "win-x64": {
-          "#import": []
         }
       }
     }

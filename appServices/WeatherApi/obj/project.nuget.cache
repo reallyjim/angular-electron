@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "r8kdcekoqkO/Mtc3c8b0uQUu3YlQ0UJSiyil+4nym6TCO19rO9EZcarar1N5aqauS5EkqidkyNbVbKDI9fnT5w==",
+  "dgSpecHash": "McEqRpzJspt1RKWmErpAaKFgniGqPxr4F4QQp26G6Y/yszfSJSumIWuZ3vA1E8LNkShGHqfn1UVvEI6L8/ZeHg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Jim.Moore\\source\\schmoli\\angular-electron\\appServices\\WeatherApi\\WeatherApi.csproj",
+  "projectFilePath": "C:\\Users\\Jim.Moore\\source\\reallyJim\\angular-electron\\appServices\\WeatherApi\\WeatherApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Jim.Moore\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.2\\microsoft.aspnetcore.app.ref.3.1.2.nupkg.sha512",
     "C:\\Users\\Jim.Moore\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.7\\microsoft.netcore.app.host.win-x64.3.1.7.nupkg.sha512"
