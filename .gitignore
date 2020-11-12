@@ -40,6 +40,9 @@ testem.log
 /typings
 package-lock.json
 
+!child.js
+
+
 # e2e
 /e2e/*.js
 !/e2e/protractor.conf.js
