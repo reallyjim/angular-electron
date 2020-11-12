@@ -27,8 +27,9 @@ function createWindow(): BrowserWindow {
   });
 
   if (serve) {
-    // un-comment to show devtools on startup
-    win.webContents.openDevTools();
+
+    // un-comment to show developer tools on startup
+    // win.webContents.openDevTools();
 
     require('electron-reload')(__dirname, {
       electron: require(`${__dirname}/node_modules/electron`)
